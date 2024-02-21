@@ -1,0 +1,33 @@
+body {
+    background: url("img/bg.jpg"); 
+    min-height: 90vh;
+    background-size: 100vw 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+h1{
+    color: aliceblue;
+}
+#game-container {
+    position: relative;
+    display: inline-block;
+}
+
+#score {
+    position: absolute;
+    top: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+}
+
+#high-score {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+}
